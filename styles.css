@@ -1,0 +1,98 @@
+{{css}}
+<link rel="stylesheet" href="styles.css">
+.title {
+    color: #333333; 
+    font-size: 36px; 
+    text-align: center; 
+    margin-top: 50px; 
+}
+.container {
+    display: flex; 
+}
+
+.left-paragraph, .right-paragraph {
+    flex: 1; 
+}
+
+.left-paragraph {
+        margin-right: 20px;}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #dae8d5;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+
+
+  </style>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>Hair Services
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #333;font-size: 70px; 
+        }
+    </style>
+    /* Media query for small screens (e.g., smartphones) */
+@media only screen and (max-width: 767px) {
+    /* Adjustments for smaller screens */
+    .container {
+        width: 90%; /* Reduce container width for better readability */
+        margin: 0 auto; /* Center the container */
+    }
+
+    .header {
+        padding: 10px; /* Increase padding for better spacing */
+    }
+
+    .nav-bar {
+        display: none; /* Hide navigation bar to save space */
+    }
+
+    .main-content {
+        width: 100%; /* Make main content full width */
+    }
+
+    .sidebar {
+        display: none; /* Hide sidebar on small screens */
+    }
+
+    .footer {
+        padding: 10px; /* Increase padding for better spacing */
+    }
+}
+
+/* Media query for extra small screens (e.g., very small smartphones) */
+@media only screen and (max-width: 479px) {
+    /* Further adjustments for extra small screens */
+    .container {
+        width: 100%; /* Make container full width for better fit */
+    }
+
+    .header {
+        font-size: 18px; /* Decrease font size for better readability */
+    }
+
+    .footer {
+        font-size: 14px; /* Decrease font size for better readability */
+    }
+}
+</head>
+<body>
